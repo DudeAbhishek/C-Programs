@@ -47,6 +47,7 @@ main()
     //Removing Repeated Elements from Union Set
     size = remove_repeated(n1 + n2, uni);
 
+    //Printing Union Set
     printf("\n Union set A U B = { ");
     for(i=0; i<size; i++)
         printf("%d, ",uni[i]);
@@ -96,13 +97,3 @@ int remove_repeated(int size, int a[])
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
