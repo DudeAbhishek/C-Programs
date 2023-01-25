@@ -1,3 +1,5 @@
+//Write a program in C to create two sets and perform the Union operation on sets. 
+
 #include<stdio.h>
 int remove_repeated(int size, int a[]);
 void sort(int size, int a[]);
