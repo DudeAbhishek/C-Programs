@@ -12,7 +12,7 @@ main()
     printf("\n Enter the no. of elements in SET A: ");
     scanf("%d",&n1);
 
-    printf("\n Enter the no. of elements in set B:");
+    printf("\n Enter the no. of elements in set B: ");
     scanf("%d",&n2);
 
     int set1[n1], set2[n2], uni[n1+n2];
