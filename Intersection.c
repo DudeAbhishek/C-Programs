@@ -15,7 +15,7 @@ main()
     printf("\n Enter the no. of elements in set B: ");
     scanf("%d",&n2);
 
-    int set1[n1], set2[n2], uni[n1+n2];
+    int set1[n1], set2[n2];
 
     if(n1<n2)
     {
@@ -79,7 +79,7 @@ main()
     printf(" }\n");
 }
 
-// Sorting of Union Set Logic
+// Sorting of Intersection Set Logic
 void sort(int size, int a[])
 {
     int i, j, temp;
@@ -98,7 +98,7 @@ void sort(int size, int a[])
     }
 }
 
-// Removing Repeating element from Union Set logic
+// Removing Repeating element from Intersection Set logic
 int remove_repeated(int size, int a[])
 {
     int i, j, k;
