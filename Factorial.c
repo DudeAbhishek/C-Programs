@@ -1,4 +1,4 @@
-// 10. Write a program to find the factorial of any number
+// 8. Write a program to find the factorial of any number
 
 #include <stdio.h>
 
